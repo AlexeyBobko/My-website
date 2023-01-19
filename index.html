@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <title>Portfolio</title>
+</head>
+<body>
+    <header class="header" id="header">
+        <canvas></canvas>
+        <div class="greetings focus">
+            <h1 class="greetings__text">Привет, меня зовут <span>Алексей Бобко</span>. Я - junior front-end developer</h1>
+            <a href="#about" class="greetings__btn btn">
+                ОБО МНЕ
+            </a>
+        </div>
+    </header>
+    <section class="about" id="about">
+        <nav class="navbar">
+            <div class="container">
+                <div class="navbar__hamburger">
+                    <div class="navbar__btn">
+                        <span class="navbar__btn-line"></span>
+                        <span class="navbar__btn-line"></span>
+                        <span class="navbar__btn-line"></span>
+                    </div>
+                    <ul class="navbar__list">
+                        <li class="navbar__item">
+                            <a href="#header" class="navbar__link">Домой</a>
+                        </li>
+                        <li class="navbar__item">
+                            <a href="#about" class="navbar__link">Обо мне</a>
+                        </li>
+                        <li class="navbar__item" >
+                            <a href="#portfolio" class="navbar__link">Портфолио</a>
+                        </li>
+                        <li class="navbar__item">
+                            <a href="#contacts" class="navbar__link">Контакты</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="container">
+            <h2 class="about__title inactive anim-items anim-no-hide">Обо мне</h2>
+            <div class="about__skills">
+                <h3 class="about__skills-title inactive anim-items anim-no-hide">Мои навыки</h3>
+                <div class="about__skills-cards">
+                    <div class="about__skills-card inactive anim-items anim-no-hide">
+                        <img src="img/html.png" alt="html">
+                        <h4>HTML</h4>
+                    </div>
+                    <div class="about__skills-card inactive anim-items anim-no-hide">
+                        <img src="img/css.png" alt="css">
+                        <h4>CSS/SCSS</h4>
+                    </div>
+                    <div class="about__skills-card inactive anim-items anim-no-hide">
+                        <img src="img/js.png" alt="js">
+                        <h4>JavaScript</h4>
+                    </div>
+                    <div class="about__skills-card inactive anim-items anim-no-hide">
+                        <img src="img/react.png" alt="react">
+                        <h4>React</h4>
+                    </div>
+                    <div class="about__skills-card inactive anim-items anim-no-hide">
+                        <img src="img/gulp.png" alt="gulp">
+                        <h4>Gulp</h4>
+                    </div>
+                    <div class="about__skills-card inactive anim-items anim-no-hide">
+                        <img src="img/webpack.png" alt="webpack">
+                        <h4>Webpack</h4>
+                    </div>
+                    <div class="about__skills-card inactive anim-items anim-no-hide">
+                        <img src="img/jquery.png" alt="Jquery">
+                        <h4>Jquery</h4>
+                    </div>
+                    <div class="about__skills-card inactive anim-items anim-no-hide">
+                        <img src="img/git.png" alt="Git">
+                        <h4>Git</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="about__wrapper">
+                <div class="about__progress inactive anim-items anim-no-hide">
+                    <h4>HTML</h4>
+                    <div class='about__progress-bar'>
+                        <div class='about__progress-line' style='max-width: 85%; --time: 5s'></div>
+                        <span>85%</span>
+                    </div>
+                    <h4>CSS</h4>
+                      <div class='about__progress-bar'>
+                        <div class='about__progress-line' style='max-width: 85%; --time: 5s'></div>
+                        <span>85%</span>
+                      </div>
+                      <h4>JavaScript</h4>
+                      <div class='about__progress-bar'>
+                        <div class='about__progress-line' style='max-width: 70%; --time: 4s'></div>
+                        <span>70%</span>
+                      </div>
+                      <h4>React</h4>
+                      <div class='about__progress-bar'>
+                        <div class='about__progress-line' style='max-width: 60%; --time: 3s'></div>
+                        <span>60%</span>
+                      </div>
+                      <h4>JQuery</h4>
+                      <div class='about__progress-bar'>
+                        <div class='about__progress-line' style='max-width: 70%; --time: 4s'></div>
+                        <span>70%</span>
+                      </div>
+                      <h4>Git</h4>
+                      <div class='about__progress-bar'>
+                        <div class='about__progress-line' style='max-width: 70%; --time: 4s'></div>
+                        <span>70%</span>
+                      </div>
+                </div>
+                <div class="about__me inactive anim-items anim-no-hide">
+                    <div class="about__me-photos">
+                        <div class="about__me-photo">
+                            <img src="img/photo.jpg" alt="Me" class="about__me-img">
+                        </div>
+                        <div class="about__me-photo">
+                            <img src="img/me.jpg" alt="Me" class="about__me-img">
+                        </div>
+                    </div>
+                    <p class="about__me-text">Меня зовут Бобко Алексей Александрович. Мне 26 лет. Я Junior Front-end-developer. Практик верстки сайтов. Созданием сайтов занимаюсь с 2021 года. Закончил курсы по верстке от Андрея Гаврилова(WayUP). Прошел углубленный курс по JS и React от Ивана Петриченко. Умею работать с Gulp, WebPack, Jquery, SASS/SCSS, Git, GitHub. При написании кода использую методологию БЭМ. Работю с препроцессорами SASS/SCSS.Имею высшее медицинское образование</p>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <h2 class="portfolio__title inactive anim-items anim-no-hide">Портфолио</h2>
+            <div class="portfolio__slider inactive anim-items anim-no-hide">
+                <div class="portfolio__slider-arrows">
+                    <div class="portfolio__slider-arrow_left">
+                        <img src="img/arrow-left.png" alt="стрека влево">
+                    </div>
+                    <div class="portfolio__slider-arrow_right">
+                        <img src="img/arrow-right.png" alt="стрека вправо">
+                    </div>
+                </div>
+                <div class="portfolio__slider-cover">
+                    <div class="portfolio__slider-inner">
+                        <a href="https://github.com/AlexeyBobko/PersonalBlog" target="_blank" class="portfolio__slider-wrapper">
+                            <img class="portfolio__slider-img" src="img/my_blog.png" alt="Мой блог">
+                            <figcaption>
+                                <h3>Мой блог</h3>
+                                <p>Мой персональный блог. Многостраничный сайт реализовани при помощи HTML,SCSS, Gulp, JS</p>
+                            </figcaption>	
+                        </a>
+                        <a href="https://github.com/AlexeyBobko" target="_blank" class="portfolio__slider-wrapper">
+                            <img class="portfolio__slider-img" src="img/project_food.png" alt="Сайт по питанию">
+                            <figcaption>
+                                <h3>Сайт по питанию</h3>
+                                <p>Сайт с интерактивным калькулятором для определения суточной нормы ккал. Содержит модальное окно, слайдер, таймер. Реализовани при помощи HTML,CSS, JS</p>
+                            </figcaption>	
+                        </a>
+                        <a href="https://github.com/AlexeyBobko/MarvelComix---React" target="_blank" class="portfolio__slider-wrapper">
+                            <img class="portfolio__slider-img" src="img/marvel.png" alt="Сайт комиксов марвел">
+                            <figcaption>
+                                <h3>Сайт комиксов марвел</h3>
+                                <p>Веб-приложение седржащее информацию по комиксам марвел. Взаимодействует с Marvel API Приложение написано при помощи React, HTML,SCSS</p>
+                            </figcaption>	
+                        </a>
+                        <a href="https://github.com/AlexeyBobko/Surfing" target="_blank" class="portfolio__slider-wrapper">
+                            <img class="portfolio__slider-img" src="img/sup_surf.png" alt="Сайт по серфингу">
+                            <figcaption>
+                                <h3>Сайт по серфингу</h3>
+                                <p>Лендинг посвященный серфингу, а также продаже необходимого оборудования для него. Написан при помощи HTML,SCSS, JS, Gulp</p>
+                            </figcaption>	
+                        </a>
+                    </div>
+            </div>
+            </div>
+        </div>
+    </section>
+    <section class="contacts" id="contacts">
+        <div class="container">
+            <h2 class="contacts__title inactive anim-items anim-no-hide">Мои контакты</h2>
+            <div class="contacts__wrapper">
+                <div class="contacts__connection inactive anim-items anim-no-hide">
+                    <h3 class="contacts__question">Есть ко мне вопросы - пиши</h3>
+                    <form action="/" class="contacts__form" method="post">
+                        <div class="contacts__form-group">
+                            <input type="text" class="contacts__form-control" placeholder="Ваше имя">
+                            <span class="form__line"></span>
+                        </div>
+                        <div class="contacts__form-group">
+                            <input type="email" class="contacts__form-control" placeholder="Ваш email">
+                            <span class="form__line"></span>
+                        </div>
+                        <div class="contacts__form-group">
+                            <textarea class="contacts__form-control" placeholder="Текст сообщения"></textarea>
+                            <span class="form__line"></span>
+                        </div>
+                        <div class="contacts__form-footer">
+                            <div class="contacts__form-group">
+                                <button class="contacts__form-btn btn">Отправить</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="contacts__links inactive anim-items anim-no-hide">
+                        <div class="contacts__links-social">
+                            <a href="https://www.linkedin.com/in/alex-bobko-333ba0252/" target="_blank" class="contacts__links-item linkedin-icon"></a>
+                            <a href="https://github.com/AlexeyBobko" target="_blank" class="contacts__links-item github-icon"></a>
+                            <a href="https://www.instagram.com/a.lex_bobko/" target="_blank" class="contacts__links-item inst-icon"></a>
+                            <a href="https://t.me/AlexeyBobko" target="_blank" class="contacts__links-item telegram-icon"></a>
+                            <a href="https://vk.com/idleshabobko" target="_blank" class="contacts__links-item vk-icon"></a>
+                        </div>
+                        <div class="contacts__links-call">
+                            <a href="mailto:lexabobko@gmail.com" class="contacts__links-mail">lexabobko@gmail.com</a>
+                            <a href="tel:+375445890439" class="contacts__links-phone">+375(44) 589-04-39</a>
+                        </div>
+                </div>
+                <div class="contacts__arrow inactive anim-items anim-no-hide">
+                    <a href="#header" class="contacts__arrow-link">
+                        <img src="img/arrow-up-small.png" alt="Стрека вверх">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="js/script.js"></script>
+</body>
+</html>
